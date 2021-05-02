@@ -26,11 +26,11 @@
 
 //Constants
 const int replayPin   = 0;                                                                                  //Integer variable correspoding the port number for the relay pin on the board.
-const char* ssid      = "Lateralus";                                                                        //Wifi SSID connection.
-const char* password  = "do03ra07to29fe";                                                                   //Wifi password.
+const char* ssid      = "XXXXXXXXX";                                                                        //Wifi SSID connection.
+const char* password  = "XXXXXXXXXXXXXX";                                                                   //Wifi password.
 
 //Variables
-String deviceName     = "Sala";                                                                             //Name of the device on the Alexa app.  
+String deviceName     = "XXXX";                                                                             //Name of the device on the Alexa app.  
 boolean wifiConnected = false;                                                                              //Check to validate wifi connection.
 Espalexa espalexa;                                                                                          //Espalexa class object.
 
